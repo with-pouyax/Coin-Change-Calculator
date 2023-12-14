@@ -8,30 +8,31 @@ To use the program, compile the source code using a C compiler and run the execu
 ### Code Structure
 The code consists of several functions:
 
-get_cents: Prompts the user for the number of cents, ensuring a non-negative input.
+-get_cents: Prompts the user for the number of cents, ensuring a non-negative input.
 
-calculate_quarters, calculate_dimes, calculate_nickels, calculate_pennies: These functions calculate the number of quarters, dimes, nickels, and pennies needed, respectively.
+-calculate_quarters, calculate_dimes, calculate_nickels, calculate_pennies:
+These functions calculate the number of quarters, dimes, nickels, and pennies needed, respectively.
 
-The main function orchestrates the execution of the program by calling these functions and displaying the final result.
+-The main function orchestrates the execution of the program by calling these functions and displaying the final result.
 
 ### How to Compile and Run
-Ensure you have a C compiler installed on your system.
-Open a terminal and navigate to the directory containing the source code.
-Compile the code using the following command:
-bash
-Copy code
+1-Ensure you have a C compiler installed on your system.
+2-Open a terminal and navigate to the directory containing the source code.
+3-Compile the code using the following command:
+
+
 gcc change_calculator.c -o change_calculator -lcs50
-Run the executable:
-bash
-Copy code
+
+4-Run the executable:
+
 ./change_calculator
 
 ### Example
-plaintext
-Copy code
+
 Please enter the number of cents:
 87
 4
+
 In this example, the user is owed 87 cents, and the program calculates that the minimum number of coins required is 4 (3 quarters and 1 dime).
 
 ### Contributions
